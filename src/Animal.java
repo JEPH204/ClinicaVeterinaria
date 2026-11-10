@@ -19,4 +19,8 @@ public abstract class Animal {
         System.out.println("Edad: " + edad + " años");
         System.out.println("Costo de consulta: $" + costoConsulta());
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }
